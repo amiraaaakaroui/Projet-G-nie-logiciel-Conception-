@@ -1,0 +1,12 @@
+Fiche des attributs et des méthodes:
+
+*Les attributs: 
+                -Nom String
+                -ID String
+                -algorithme Enumeration
+*Les méthodes: 
+                -preparer_le_<data_set>()
+                -supprimer_le_<data_set>()
+                -choisir_un_algorithme a utiliser()
+                -inserer_le_<training_data>_dans_le_modèle()
+                -predire_et_utiliser_des_modeles_avec_des_nouvelles_donnees()

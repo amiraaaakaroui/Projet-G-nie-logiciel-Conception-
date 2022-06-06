@@ -1,0 +1,48 @@
+public class utilisateur {
+ public String nom  ; 
+ public String  id ;
+public utilisateur (string id , string nom ){
+ this.id  = id ;
+this.nom= nom ;
+
+
+}
+
+public class modele {
+ public alogorithm a ;
+public training_data tr ;
+public test_data td ;
+public data_set data ;
+
+public modele ( algorithm a ) {
+this.a =a ;  
+}
+public  diviser (data_set , tr,td){
+// split 
+}
+public insert_training_data (trainig_data){
+// insertion 
+
+}
+
+
+}
+---------------------------------------------------------------------------------------------------------
+
+public class algorithm {
+//importation  de l'algorithm de   libreries 
+}
+
+public  abstract data_set {
+
+// imprtation data_set  de libreries 
+}
+
+public training_data extends data_set(){
+
+}
+public test_data extends  data_set (){
+
+}
+
+
